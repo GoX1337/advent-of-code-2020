@@ -6,11 +6,11 @@ import java.util.List;
 public class Day3 {
 
     public static long resolvePart1() {
-        return processSlope(FileUtils.parseFileLines("resources/3.1.txt"), 3, 1);
+        return processSlope(FileUtils.parseFileLines("resources/3.txt"), 3, 1);
     }
 
     public static long resolvePart2() {
-        List<String> lines = FileUtils.parseFileLines("resources/3.1.txt");
+        List<String> lines = FileUtils.parseFileLines("resources/3.txt");
         return processSlope(lines, 1, 1)
                  *  processSlope(lines, 3, 1)
                  *  processSlope(lines, 5, 1)

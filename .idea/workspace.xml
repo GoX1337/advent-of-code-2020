@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7774442e-1914-45f4-82a1-ccee292cdfe3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/3.1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gox/adventofcode/days/Day4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/3.1.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/3.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/gox/adventofcode/AdventOfCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gox/adventofcode/AdventOfCode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/gox/adventofcode/days/Day3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gox/adventofcode/days/Day3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gox/adventofcode/utils/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gox/adventofcode/utils/FileUtils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,33 +20,26 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/gox/adventofcode/days/Day3.java">
+        <entry file="file://$PROJECT_DIR$/src/com/gox/adventofcode/days/Day4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+            <state relative-caret-position="119">
+              <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#163#164#0" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
+                <element signature="e#3125#3126#0" expanded="true" />
+                <element signature="e#3183#3184#0" expanded="true" />
+                <element signature="e#3306#3307#0" expanded="true" />
+                <element signature="e#3364#3365#0" expanded="true" />
+                <element signature="e#3492#3493#0" expanded="true" />
+                <element signature="e#3550#3551#0" expanded="true" />
+                <element signature="e#4171#4172#0" expanded="true" />
+                <element signature="e#4223#4224#0" expanded="true" />
+                <element signature="e#4130#4131#0" expanded="true" />
+                <element signature="e#4188#4189#0" expanded="true" />
+                <element signature="e#4207#4208#0" expanded="true" />
+                <element signature="e#4264#4265#0" expanded="true" />
+                <element signature="e#4323#4324#0" expanded="true" />
+                <element signature="e#4380#4381#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/3.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/3.1.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="323" selection-start-line="323" selection-end-line="323" />
             </state>
           </provider>
         </entry>
@@ -53,11 +47,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gox/adventofcode/AdventOfCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+            <state relative-caret-position="340">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gox/adventofcode/days/Day3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="12" column="73" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gox/adventofcode/days/Day2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gox/adventofcode/days/Day1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/4.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="101" column="22" selection-start-line="101" selection-start-column="19" selection-end-line="101" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -76,6 +112,7 @@
       <find>valueof</find>
       <find>1133</find>
       <find>491</find>
+      <find>ecl</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -92,10 +129,12 @@
         <option value="$PROJECT_DIR$/src/com/gox/adventofcode/days/Day2.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/com/gox/adventofcode/utils/FileUtils.java" />
-        <option value="$PROJECT_DIR$/resources/3.txt" />
         <option value="$PROJECT_DIR$/resources/3.1.txt" />
-        <option value="$PROJECT_DIR$/src/com/gox/adventofcode/AdventOfCode.java" />
+        <option value="$PROJECT_DIR$/resources/3.txt" />
         <option value="$PROJECT_DIR$/src/com/gox/adventofcode/days/Day3.java" />
+        <option value="$PROJECT_DIR$/resources/4.txt" />
+        <option value="$PROJECT_DIR$/src/com/gox/adventofcode/AdventOfCode.java" />
+        <option value="$PROJECT_DIR$/src/com/gox/adventofcode/days/Day4.java" />
       </list>
     </option>
   </component>
@@ -110,7 +149,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -129,36 +167,20 @@
               <item name="advent-of-code-2020" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="advent-of-code-2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="advent-of-code-2020" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="adventofcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="advent-of-code-2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="advent-of-code-2020" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="adventofcode" type="462c0819:PsiDirectoryNode" />
-              <item name="days" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="advent-of-code-2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="advent-of-code-2020" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="adventofcode" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607463807170" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607530456000" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gox.adventofcode.days" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projets\advent-of-code-2020\resources" />
     </key>
@@ -175,7 +197,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Day4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gox.adventofcode.days.Day4" />
+      <module name="advent-of-code-2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gox.adventofcode.days.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.gox.adventofcode.AdventOfCode" />
       <module name="advent-of-code-2020" />
@@ -189,6 +224,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Day4" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +245,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18336888" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18550107" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -218,8 +254,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2979415" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4127844" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -275,27 +311,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gox/adventofcode/days/Day2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gox/adventofcode/days/Day1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/3.1.txt" />
+    <entry file="file://$PROJECT_DIR$/resources/3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="323" lean-forward="true" selection-start-line="323" selection-end-line="323" />
         </state>
       </provider>
     </entry>
@@ -309,38 +336,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/3.txt">
+    <entry file="file://$PROJECT_DIR$/src/com/gox/adventofcode/days/Day1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        <state relative-caret-position="374">
+          <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gox/adventofcode/AdventOfCode.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gox/adventofcode/days/Day2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        <state relative-caret-position="459">
+          <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/3.1.txt">
+    <entry file="file://$PROJECT_DIR$/src/com/gox/adventofcode/days/Day3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="323" selection-start-line="323" selection-end-line="323" />
+        <state relative-caret-position="170">
+          <caret line="12" column="73" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gox/adventofcode/days/Day3.java">
+    <entry file="file://$PROJECT_DIR$/resources/4.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        <state relative-caret-position="152">
+          <caret line="101" column="22" selection-start-line="101" selection-start-column="19" selection-end-line="101" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gox/adventofcode/AdventOfCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gox/adventofcode/days/Day4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
+          <folding>
+            <element signature="e#3125#3126#0" expanded="true" />
+            <element signature="e#3183#3184#0" expanded="true" />
+            <element signature="e#3306#3307#0" expanded="true" />
+            <element signature="e#3364#3365#0" expanded="true" />
+            <element signature="e#3492#3493#0" expanded="true" />
+            <element signature="e#3550#3551#0" expanded="true" />
+            <element signature="e#4171#4172#0" expanded="true" />
+            <element signature="e#4223#4224#0" expanded="true" />
+            <element signature="e#4130#4131#0" expanded="true" />
+            <element signature="e#4188#4189#0" expanded="true" />
+            <element signature="e#4207#4208#0" expanded="true" />
+            <element signature="e#4264#4265#0" expanded="true" />
+            <element signature="e#4323#4324#0" expanded="true" />
+            <element signature="e#4380#4381#0" expanded="true" />
           </folding>
         </state>
       </provider>
