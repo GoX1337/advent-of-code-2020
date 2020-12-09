@@ -1,9 +1,6 @@
 package com.gox.adventofcode;
 
-import com.gox.adventofcode.days.Day1;
-import com.gox.adventofcode.days.Day2;
-import com.gox.adventofcode.days.Day3;
-import com.gox.adventofcode.days.Day4;
+import com.gox.adventofcode.days.*;
 
 public class AdventOfCode {
 
@@ -16,5 +13,6 @@ public class AdventOfCode {
         System.out.println("Day 3 part 2 result : " + Day3.resolvePart2());
         System.out.println("Day 4 part 1 result : " + Day4.resolve(false));
         System.out.println("Day 4 part 2 result : " + Day4.resolve(true));
+        System.out.println("Day 5 part 1 result : " + Day5.resolve());
     }
 }
