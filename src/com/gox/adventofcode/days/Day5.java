@@ -1,20 +1,33 @@
 package com.gox.adventofcode.days;
 
 import com.gox.adventofcode.utils.FileUtils;
+
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Day5 {
 
-    public static int resolve() {
+    public static String resolve() {
         List<String> lines = FileUtils.parseFileLines("resources/5.txt");
         int maxBoardingPass = -1;
+        List<Integer> seats = new ArrayList<>();
         for(String seatCode : lines){
             int seat = processSeat(seatCode);
+            seats.add(seat);
             if(maxBoardingPass <= seat){
                 maxBoardingPass = seat;
             }
         }
-        return maxBoardingPass;
+
+        int mySeat = -1;
+        Collections.sort(seats);
+        for(int i = 0, j = 1; i < seats.size() - 1; i++, j++){
+            if(seats.get(i) + 1 != seats.get(j)){
+                mySeat = seats.get(i) + 1;
+            }
+        }
+        return "max seat number: " + maxBoardingPass + "; my seat: " + mySeat;
     }
 
     private static int processSeat(String seatCode) {
