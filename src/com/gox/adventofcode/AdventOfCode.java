@@ -18,6 +18,7 @@ public class AdventOfCode {
         System.out.println("Day 7 result : " + Day7.resolve());
         System.out.println("Day 8 part 1 result : " + Day8.resolvePart1());
         System.out.println("Day 8 part 2 result : " + Day8.resolvePart2());
-        System.out.println("Day 9 part 1 result : " + Day9.resolve());
+        System.out.println("Day 9 part 1 result : " + Day9.resolvePart1());
+        System.out.println("Day 9 part 2 result : " + Day9.resolvePart2());
     }
 }

@@ -6,10 +6,14 @@ import java.util.List;
 
 public class Day9 {
 
-    public static long resolve() {
-        List<Long> lines = FileUtils.parseFileToLongList("resources/9.txt");
-        int preambuleSize = 25;
+    private static List<Long> lines = FileUtils.parseFileToLongList("resources/9.txt");
+    private static int preambuleSize = 25;
 
+    public static long resolvePart1() {
+        return findFirstIncorrectValue();
+    }
+
+    public static long findFirstIncorrectValue(){
         for(int i = preambuleSize; i < lines.size(); i++){
             long value = lines.get(i);
             boolean check = hasPairSum(value, lines.subList(i - preambuleSize, i));
@@ -31,4 +35,37 @@ public class Day9 {
         return false;
     }
 
+    public static long resolvePart2() {
+        List<Long> lines = FileUtils.parseFileToLongList("resources/9.txt");
+        long part1Value = findFirstIncorrectValue();
+
+        for(int i = 0; i < lines.size() - 1; i++){
+            int j = i + 1;
+            long rangeSum = lines.get(i);
+            boolean rangeFound = false;
+            long maxRangeValue = lines.get(i);
+            long minRangeValue = lines.get(i);
+
+            while(j < lines.size()){
+                rangeSum += lines.get(j);
+                if(maxRangeValue <= lines.get(j)){
+                    maxRangeValue = lines.get(j);
+                }
+                if(minRangeValue > lines.get(j)){
+                    minRangeValue = lines.get(j);
+                }
+                if(rangeSum == part1Value){
+                    rangeFound = true;
+                    break;
+                }
+                j++;
+            }
+
+            if(rangeFound){
+                return minRangeValue + maxRangeValue;
+            }
+            i++;
+        }
+        return 0;
+    }
 }
